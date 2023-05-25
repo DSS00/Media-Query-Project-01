@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    background-color: #00ffff;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background-color: #008000;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: darkgoldenrod;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #00ffff;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-color: #b13434;
+        font-size: 2rem;
+    }
+}
